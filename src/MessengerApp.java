@@ -135,7 +135,7 @@ class WhatsAppMessagingService implements MessagingService{
     }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         SmsMessageService smsMessageService = new SmsMessageService();
         //smsMessageService.sendMessage();
